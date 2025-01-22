@@ -40,12 +40,11 @@ export default function Home() {
 
   return (
     <div className="flex flex-col md:flex-row w-full bg-white border border-gray-200 h-svh">
-      {/* sidebar */}
-      {/* <Sidebar /> */}
-      {/* Dashboard */}
-      {/* <Dashboard /> */}
-
-      <div>
+      <Navbar />
+      <QuizzesArea />
+      
+      {/* Remove or comment out the test UI below if not needed */}
+      {/* <div>
         <button
           className="px-3 bg-gray-300"
           onClick={() => setIsDarkMode(false)}
@@ -59,7 +58,6 @@ export default function Home() {
           Dark
         </button>
       </div>
-      {/* Box */}
       <div
         className={`bg-white border border-gray-300 shadow-md w-44 h-44 
       ${isDarkMode ? 'dark-theme' : 'light-theme'}`}
@@ -70,7 +68,7 @@ export default function Home() {
           <div className="bg-mainColor p-4 text-white">Icon</div>
           <span>Category 1</span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
