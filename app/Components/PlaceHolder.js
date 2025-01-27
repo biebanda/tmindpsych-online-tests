@@ -13,7 +13,7 @@ function PlaceHolder(props) {
       {/* Icon Container */}
       <Image src="/emptyBox.png" alt="" width={130} height={130} />
       {/* Title */}
-      <h2 className="text-2xl font-bold">Quizzes await! Make one.</h2>
+      <h2 className="text-2xl font-bold">Tests & Quizzes await! Make one.</h2>
       {/* Call To Action */}
       <span className="text-[13px] font-light">
         Click below to begin your journey here...

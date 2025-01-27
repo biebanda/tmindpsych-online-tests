@@ -375,7 +375,7 @@ function ScoreComponent({ quizStartParentProps }) {
       <div className=" flex gap-4 items-center justify-center flex-col">
         <Image src={`/${emojiIconScore()}`} alt="" width={100} height={100} />
         <div className="flex gap-1 flex-col">
-          <span className="font-bold text-2xl">Your Score</span>
+          <span className="font-bold text-2xl">Your Performance Score</span>
           <div className="text-[22px] text-center">
             {score}/{numberOfQuestions}
           </div>

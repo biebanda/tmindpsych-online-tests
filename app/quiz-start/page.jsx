@@ -30,7 +30,7 @@ function Page(props) {
         <div className="  h-svh flex flex-col gap-2 items-center justify-center">
           <Image src="/errorIcon.png" alt="" width={180} height={180} />
           <h2 className="text-xl font-bold">
-            Please Select your quiz first...
+            Please Select your test first...
           </h2>
           <span className="font-light">
             You will be redirected to the home page

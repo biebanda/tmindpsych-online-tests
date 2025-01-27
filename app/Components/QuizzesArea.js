@@ -60,7 +60,7 @@ function QuizzesArea({ props }) {
               Learn 10x <span className="text-green-700">Faster!</span>
             </h2>
             <span className="text-xl font-light">
-              Unlock Your Potential with Personalized  Tests or Quizzes
+              Unlock Your Potential with Personalized  Tests or Quizzes with us: <strong> "TM Industrial Psychological Services Pvt Ltd" </strong>
             </span>
             <button
               onClick={() => {

@@ -92,7 +92,7 @@ function Sidebar() {
   return (
     <div className="bg-red-200 w-full flex flex-row px-5 justify-between md:flex-col md:px-0 md:w-3/12 ">
       {/* Logo */}
-      <div className="bg-white p-3 border border-gray-300">Logo</div>
+      <div className="bg-white p-3 border border-gray-300">TMindpsych-Logo</div>
       {/* Menu */}
       <ul
         className={`bg-white ${
